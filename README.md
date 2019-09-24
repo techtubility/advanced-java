@@ -16,6 +16,34 @@
 
 学习之前，先来看看 [Issues 讨论区](https://github.com/doocs/advanced-java/issues/9#issue-394275038)的技术面试官是怎么说的吧。本项目也欢迎各位开发者朋友到 [Issues 讨论区](https://github.com/doocs/advanced-java/issues)分享自己的一些想法和实践经验，参与或加入开源组织请看[这里](https://github.com/doocs/advanced-java/issues/61)，你也访问 [GitHub Page](https://doocs.github.io)  详细了解一下 Doocs。
 
+## 深入拆解Java虚拟机
+### Java虚拟机原理
+- Java代码是怎么运行的
+- Java的基本类型
+- Java虚拟机是如何加载Java类的
+- JVM是如何执行方法调用的
+- JVM是如何处理异常的
+- JVM是如何实现反射的
+- JVM是怎么实现invokedynamic的
+- JVM构造对象的步骤都有哪些
+- Java内存模型
+- JVM是如何实现同步的
+- 垃圾回收
+- JVM的安全点是什么
+
+### 高效编译
+- javac是如何编译Java源代码的
+- 如何触发即时编译
+- 即时编译与常规的静态编译器有什么不同
+- 即时编译有哪些优化
+- 在哪些情况下Java代码会被优化
+
+### Java代码优化
+- 如何理解JVM内置的编译或GC日志
+- 如何利用JFR和JMC监控Java程序
+- 如何利用MAT分析Java程序的堆使用状况
+- 如何利用JMH评估代码性能
+
 ## 高并发架构
 ### [消息队列](/docs/high-concurrency/mq-interview.md)
 - [为什么使用消息队列？消息队列有什么优点和缺点？Kafka、ActiveMQ、RabbitMQ、RocketMQ 都有什么优点和缺点？](/docs/high-concurrency/why-mq.md)
